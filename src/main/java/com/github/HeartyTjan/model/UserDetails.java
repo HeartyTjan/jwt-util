@@ -1,4 +1,4 @@
-package com.swiftHearty.model;
+package com.github.HeartyTjan.model;
 
 import java.util.ArrayList;
 import java.util.Collections;

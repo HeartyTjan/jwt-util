@@ -4,10 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.swiftHearty</groupId>
+    <groupId>com.github.HeartyTjan</groupId>
     <artifactId>jwt-util</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <version>1.0.2</version>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -47,7 +46,7 @@
             <version>${jjwt.version}</version>
             <scope>runtime</scope>
         </dependency>
-        
+
         <!-- Testing Dependencies -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -67,7 +66,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        
+
         <!-- Mockito for testing -->
         <dependency>
             <groupId>org.mockito</groupId>
@@ -81,7 +80,7 @@
             <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
-        
+
 <!--        &lt;!&ndash; Logging &ndash;&gt;-->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -114,14 +113,14 @@
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
-            
+
             <!-- Surefire Plugin for running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
-            
+
             <!-- Source Plugin for including sources in JAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -137,7 +136,7 @@
                     </execution>
                 </executions>
             </plugin>
-            
+
             <!-- Javadoc Plugin for generating documentation -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

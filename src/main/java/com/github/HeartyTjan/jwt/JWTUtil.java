@@ -1,6 +1,6 @@
-package com.swiftHearty.jwt;
+package com.github.HeartyTjan.jwt;
 
-import com.swiftHearty.model.UserDetails;
+import com.github.HeartyTjan.model.UserDetails;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
@@ -8,7 +8,6 @@ import io.jsonwebtoken.security.Keys;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.crypto.SecretKey;
 import java.security.Key;
 import java.security.KeyPair;
 import java.security.PrivateKey;

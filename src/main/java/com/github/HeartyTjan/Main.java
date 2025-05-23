@@ -1,7 +1,7 @@
-package com.swiftHearty;
+package com.github.HeartyTjan;
 
-import com.swiftHearty.jwt.JWTUtil;
-import com.swiftHearty.model.UserDetails;
+import com.github.HeartyTjan.jwt.JWTUtil;
+import com.github.HeartyTjan.model.UserDetails;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import org.slf4j.Logger;

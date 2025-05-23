@@ -1,4 +1,4 @@
-package com.swiftHearty.model;
+package com.github.HeartyTjan.model;
 
 import org.junit.jupiter.api.Test;
 
