@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a462ad85-3c98-4ff5-b5d6-4024c5cce233" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swiftHearty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HeartyTjan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HeartyTjan/jwt-util.git",
+    "accountId": "7c82ad23-86a5-4212-ba7a-eba5b351deb1"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -32,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.JWTUtilTest$TokenRefreshAndBlacklistTests.testBlacklist.executor": "Run",
     "JUnit.JWTUtilTest.executor": "Run",
     "JUnit.UserDetailsTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -42,10 +51,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.JWTUtilTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\jwtUtil\.github" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.swiftHearty.Main" />
       <module name="jwtUtil" />
@@ -55,6 +72,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTUtilTest$TokenRefreshAndBlacklistTests.testBlacklist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwtUtil" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swiftHearty.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swiftHearty.jwt.JWTUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="com.swiftHearty.jwt.JWTUtilTest$TokenRefreshAndBlacklistTests" />
+      <option name="METHOD_NAME" value="testBlacklist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,8 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JWTUtilTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.JWTUtilTest$TokenRefreshAndBlacklistTests.testBlacklist" />
+        <item itemvalue="JUnit.JWTUtilTest" />
         <item itemvalue="JUnit.UserDetailsTest" />
       </list>
     </recent_temporary>
@@ -113,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748004174981</updated>
-      <workItem from="1748004176886" duration="6381000" />
+      <workItem from="1748004176886" duration="13976000" />
     </task>
     <servers />
   </component>
